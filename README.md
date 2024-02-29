@@ -25,9 +25,7 @@ Yanfly's EquipCore is required. I don't know of any other incompatibilities,
 but beware of any plugins where an actor's Equip Slots can change
 throughout gameplay (such as Yanfly's ClassChangeCore). 
 
-============================================================================
-Notetags
-============================================================================
+## Notetags
 
 Armor Notetags:
     <BP:x>
