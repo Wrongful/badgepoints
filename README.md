@@ -28,10 +28,10 @@ throughout gameplay (such as Yanfly's ClassChangeCore).
 ## Notetags
 
 Armor Notetags:
-<BP:x>
-    Set x to the number of Badge Points you want this Badge to be worth.
-    The player can only equip it if they have at least this many BP
-    available.
+\<BP:x>
+* Set x to the number of Badge Points you want this Badge to be worth.
+  The player can only equip it if they have at least this many BP
+  available.
 
 ## Plugin Commands
 
