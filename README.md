@@ -95,13 +95,19 @@ UnlockEquipBadge 1 2
 If you're using Yanfly's Main Menu Manager, add this to that plugin'same
 commands:
 
-Name: Dragonfish.BP.MenuName
-Symbol: badges
-Show: $gameSystem.isShowBadges()
-Enabled: $gameSystem.isEnableBadges()
-Ext: 
-Main Bind: this.commandBadges.bind(this)
-Actor Bind: SceneManager.push(Scene_Badges)
+>Name: Dragonfish.BP.MenuName
+>
+>Symbol: badges
+>
+>Show: $gameSystem.isShowBadges()
+>
+>Enabled: $gameSystem.isEnableBadges()
+>
+>Ext: 
+>
+>Main Bind: this.commandBadges.bind(this)
+>
+>Actor Bind: SceneManager.push(Scene_Badges)
 
 Remember to disable "Auto Add Menu" and "Auto Place Menu" from this
 plugin's parameters.
