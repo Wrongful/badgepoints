@@ -35,7 +35,7 @@ Armor Notetags:
 
 ## Plugin Commands
 
-GainBP 5 1
+* GainBP 5 1
 Gives 5 BP to Actor 1.
 
 LoseBP 5 1
