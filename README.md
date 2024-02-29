@@ -35,60 +35,60 @@ Armor Notetags:
 
 ## Plugin Commands
 
-* GainBP 5 1
+GainBP 5 1
 
-Gives 5 BP to Actor 1.
+* Gives 5 BP to Actor 1.
 
-* LoseBP 5 1
+LoseBP 5 1
 
-Takes 5 BP to Actor 1. (NOTE: If an actor's BP falls into the
+* Takes 5 BP to Actor 1. (NOTE: If an actor's BP falls into the
 negatives, it will automatically unequip Badges until their
 BP is at least 0 again.)
 
-* PartyGainBP 5
+PartyGainBP 5
 
-Gives 5 BP to the entire current party.
+* Gives 5 BP to the entire current party.
 
-* PartyLoseBP 5
+PartyLoseBP 5
 
-Takes 5 BP from the entire current party.
+* Takes 5 BP from the entire current party.
 
-* ShowBadgeMenu
+ShowBadgeMenu
 
-Shows the Badge option in the Main Menu.
+* Shows the Badge option in the Main Menu.
 
-* HideBadgeMenu
+HideBadgeMenu
 
-Hides the Badge option in the Main Menu.
+* Hides the Badge option in the Main Menu.
 
-* EnableBadgeMenu
+EnableBadgeMenu
 
-Enables the Badge option in the Main Menu.
+* Enables the Badge option in the Main Menu.
 
-* DisableBadgeMenu
+DisableBadgeMenu
 
-Disables the Badge option in the Main Menu.
+* Disables the Badge option in the Main Menu.
 
 (NOTE: The following plugin commands call for specific indexes in your
 actor's equipped Badges. Because Badges can have their indexes
 fluctuate by design, these commands are not always reliable.)
 
-* ForceEquipBadge 8 3 1 true
+ForceEquipBadge 8 3 1 true
 
-Automatically makes Actor 3 equip the Badge with the armor ID of 8
+* Automatically makes Actor 3 equip the Badge with the armor ID of 8
 in slot 1. If "true," it will be added along with your other equips;
 by default, it will replace whatever Badge is currently in slot 1.
 (Note that this *does* still use BP, so be careful not to send an
 actor's BP into the negatives.)
 
-* LockEquipBadge 1 2
+LockEquipBadge 1 2
 
-Locks Badge slot 1 for Actor 2; the player will not be able to
+* Locks Badge slot 1 for Actor 2; the player will not be able to
 change it manually in the menu.
 
-* UnlockEquipBadge 1 2
+UnlockEquipBadge 1 2
 
-Unlocks Badge slot 1 for Actor 2, if it was locked previously.
+* Unlocks Badge slot 1 for Actor 2, if it was locked previously.
 
 ## Main Menu Manager
 
