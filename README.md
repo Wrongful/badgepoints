@@ -1,6 +1,4 @@
-============================================================================
-Introduction
-============================================================================
+## Introduction
 
 This plugin adds a new "Badge" system, where instead of a set number
 of slots, the player has "points" that can change throughout gameplay;
@@ -21,9 +19,7 @@ Armor').
 
 From there, make the Badge have whatever unique traits you want!
 
-============================================================================
-Compatibility
-============================================================================
+## Compatibility
 
 Yanfly's EquipCore is required. I don't know of any other incompatibilities,
 but beware of any plugins where an actor's Equip Slots can change
@@ -39,9 +35,7 @@ Armor Notetags:
     The player can only equip it if they have at least this many BP
     available.
 
-============================================================================
-Plugin Commands
-============================================================================
+## Plugin Commands
 
 GainBP 5 1
     Gives 5 BP to Actor 1.
@@ -87,9 +81,7 @@ LockEquipBadge 1 2
 UnlockEquipBadge 1 2
     Unlocks Badge slot 1 for Actor 2, if it was locked previously.
 
-============================================================================
-Main Menu Manager
-============================================================================
+## Main Menu Manager
 
 If you're using Yanfly's Main Menu Manager, add this to that plugin'same
 commands:
@@ -105,16 +97,12 @@ Actor Bind: SceneManager.push(Scene_Badges)
 Remember to disable "Auto Add Menu" and "Auto Place Menu" from this
 plugin's parameters.
 
-============================================================================
-Permissions
-============================================================================
+## Permissions
 
 This plugin may be used freely in any projects, commercial or private, so
 long as credit is given to Wrongful.
 
-============================================================================
-Changelog
-============================================================================
+## Changelog
 
 Version 1.00:
 - Finished!
